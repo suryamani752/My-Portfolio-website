@@ -1,0 +1,13 @@
+#dark {
+  background-color: rgb(8, 24, 198);
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

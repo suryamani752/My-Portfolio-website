@@ -1,0 +1,46 @@
+#contact {
+  margin: 50px 0px;
+  margin-left: 10px;
+}
+#contact h2 {
+  font-weight: bold;
+  color: #138781;
+}
+#contact hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+}
+.link-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+.link{
+    margin: 10px 5px;
+}
+.link a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+.link p{
+    margin-top: 5px;
+}
+@media (max-width: 600px) {
+  .link-container{
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    display: grid;
+  }
+  .link-container h2 {
+    padding-top: 20px;
+  }
+  .link-container hr {
+    width: 280px;
+    margin-top: 10px;
+  }
+}

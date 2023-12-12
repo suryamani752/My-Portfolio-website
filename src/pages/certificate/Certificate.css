@@ -1,0 +1,49 @@
+.certificate {
+  margin: 50px 0px;
+  margin-left: 130px;
+  
+}
+.certificate hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+}
+.certificate h2 {
+  font-weight: bold;
+  color: #138781;
+}
+#ads {
+  margin: 40px 0px 30px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0px;
+}
+.certificate .card img {
+  height: 600px;
+  width: 100%;
+}
+.certificate .card:hover {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: all 0.5s ease;
+}
+.certificate h5 {
+  background-color: aqua;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+}
+@media (max-width: 600px) {
+  .certificate {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+  .certificate hr {
+    width: 280px;
+  }
+  .certificate .card {
+    margin-top: 30px;
+  }
+}

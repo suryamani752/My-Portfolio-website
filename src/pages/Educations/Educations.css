@@ -1,0 +1,35 @@
+.educations {
+  padding: 100px 0px;
+  margin: 50px 0px;
+  margin-left: 120px;
+  background-color: rgba(128, 128, 128, 0.101);
+}
+.educations hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+}
+.educations h2 {
+  font-weight: bold;
+  color: #138781;
+}
+.educations .vertical-timeline-element-title {
+  color: #138781;
+}
+.educations .vertical-timeline-element-subtitle {
+  color: #1e1e2c;
+}
+@media (max-width: 600px) {
+  .educations {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+  }
+  .educations h2 {
+    padding-top: 20px;
+  }
+  .educations hr {
+    width: 280px;
+    margin-top: 10px;
+  }
+}
